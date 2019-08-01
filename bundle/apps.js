@@ -5883,7 +5883,7 @@ class CallApp {
         //this.mNetConfig.SignalingUrl = "wss://signaling.because-why-not.com/testshared";
         this.mNetConfig.IsConference = false;
         // this.mNetConfig.SignalingUrl = "wss://signaling.because-why-not.com/callapp";
-        this.mNetConfig.SignalingUrl = "ws://localhost:12776/callapp";
+        this.mNetConfig.SignalingUrl = "ws://172.16.76.201:12776/callapp";
     }
     GetParameterByName(name) {
         var url = window.location.href;
